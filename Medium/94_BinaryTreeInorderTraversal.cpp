@@ -27,12 +27,11 @@ public:
     }
     
     void main() {
-        std::cout << "asdasfasfasf" << std::endl;
-//        TreeNode* root;
-//        char a[] = {'1', '#', '2', '3'};
-//        Initialization init;
-////        init.InitTree(root, a, 0, sizeof(a) / sizeof(char));
-//
-//        std::cout << root->left << std::endl;
+       TreeNode* root;
+       char a[] = {'1', '#', '2', '3'};
+       Initialization init;
+//        init.InitTree(root, a, 0, sizeof(a) / sizeof(char));
+
+       std::cout << root->left << std::endl;
     }
 };
