@@ -9,6 +9,9 @@
 #ifndef HEADER_H
 #define HEADER_H
 
+#include <climits>
+#include <math.h>
+
 #include <iostream>
 
 #include <string>
@@ -20,10 +23,6 @@
 #include <stack>
 #include <queue>
 #include <algorithm>
-#include <climits>
-#include <math.h>
-
-using namespace std;
 
 struct Point {
     int x;
