@@ -27,7 +27,7 @@ int main(int argc, const char * argv[]) {
 //    NQueensII solution;
 //    SudokuSolver solution;
 
-    BinaryTreeInorderTraversal solution;
+    UniqueBinarySearchTreesII solution;
     solution.main();
 
     return 0;
