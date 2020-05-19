@@ -8,31 +8,44 @@
 
 #include "header.h"
 
+using namespace std;
+
 class NQueens {
 private:
-    void solve(int p, int r, int c, int d, std::vector<std::string> &res) {
-        std::vector<std::string> ans;
+    void solveNQueens(int row, const int& n, vector<vector<string>>& res, vector<string>& ans, vector<int>& flag_col, vector<int>& flag_45, vector<int>& flag_135) {
+        if (row == n) {
+            res.push_back(ans);
+            return;
+        }
+        for (int col = 0; col < n; ++col) {
+            if (flag_col[col] && flag_45[row + col] && flag_135[n - 1 + col - row]) {
+                flag_col[col] = flag_45[row + col] = flag_135[n - 1 + col - row] = 0;
+                ans[row][col] = 'Q';
+                solveNQueens(row + 1, n, res, ans, flag_col, flag_45, flag_135);
+                flag_col[col] = flag_45[row + col] = flag_135[n - 1 + col - row] = 1;
+                ans[row][col] = '.';
+            }
+        }
     }
-    
+
 public:
-    int n;
-    std::vector<std::vector<std::string>> solveNQueens(int n) {
-        std::vector<std::vector<std::string>> res;
-        std::vector<std::string> ans;
-        this->n = n;
-        
+    vector<vector<string>> solveNQueens(int n) {
+        vector<vector<string>> res;
+        vector<string> ans(n, string(n, '.'));
+        vector<int> flag_col(n, 1), flag_45(2 * n - 1, 1), flag_135(2 * n - 1, 1);
+        solveNQueens(0, n, res, ans, flag_col, flag_45, flag_135);
         
         return res;
     }
     
     void main() {
         int n = 4;
-        std::vector<std::vector<std::string>> res = solveNQueens(n);
+        vector<vector<string>> res = solveNQueens(n);
         for (int i = 0; i < res.size(); i ++) {
             for (int j = 0; j < res[i].size(); j ++) {
-                std::cout << res[i][j] << std::endl;
+                cout << res[i][j] << endl;
             }
-            std::cout << std::endl;
+            cout << endl;
         }
     }
 };

@@ -23,11 +23,11 @@ int main(int argc, const char * argv[]) {
 //    JumpGameII solution;
 
     // 难题必做
-//    NQueens solution;
+    NQueens solution;
 //    NQueensII solution;
 //    SudokuSolver solution;
 
-    UniqueBinarySearchTreesII solution;
+//    NQueens solution;
     solution.main();
 
     return 0;

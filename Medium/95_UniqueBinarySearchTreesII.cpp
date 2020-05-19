@@ -52,7 +52,7 @@ public:
     }
 
     void main() {
-        int n = 0;
+        int n = 5;
         auto ret = generateTrees(n);
         for (int i = 0; i < ret.size(); ++i) {
             cout << ret[i]->val << endl;
