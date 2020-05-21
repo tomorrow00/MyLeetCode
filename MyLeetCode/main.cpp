@@ -23,8 +23,7 @@ int main(int argc, const char * argv[]) {
 //    JumpGameII solution;
 
     // 难题必做
-    NQueens solution;
-//    NQueensII solution;
+    NQueensII solution;
 //    SudokuSolver solution;
 
 //    NQueens solution;
