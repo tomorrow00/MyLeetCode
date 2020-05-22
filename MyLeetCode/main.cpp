@@ -23,10 +23,9 @@ int main(int argc, const char * argv[]) {
 //    JumpGameII solution;
 
     // 难题必做
-    NQueensII solution;
 //    SudokuSolver solution;
 
-//    NQueens solution;
+    ValidateBinarySearchTree solution;
     solution.main();
 
     return 0;

@@ -69,6 +69,8 @@
 #include "../Medium/93_RestoreIPAddresses.cpp"
 #include "../Medium/94_BinaryTreeInorderTraversal.cpp"
 #include "../Medium/95_UniqueBinarySearchTreesII.cpp"
+#include "../Medium/96_UniqueBinarySearchTrees.cpp"
+#include "../Medium/98_ValidateBinarySearchTree.cpp"
 #include "../Medium/134_GasStation.cpp"
 #include "../Medium/148_SortList.cpp"
 #include "../Medium/347_TopKFrequentElements.cpp"

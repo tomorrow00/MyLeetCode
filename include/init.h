@@ -28,13 +28,13 @@ public:
         }
     }
     
-    void InitTree(TreeNode *&pRoot, int a[], int index, int len) {
+    void InitTree(TreeNode *&pRoot, char* a, int index, int len) {
         if (index >= len) {
             return;
         }
         
         if (a[index] != '#') {
-            pRoot = new TreeNode(a[index]);
+            pRoot = new TreeNode(static_cast<int>(a[index] - 48));
         }
         else {
             return;
