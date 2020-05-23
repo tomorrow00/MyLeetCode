@@ -21,7 +21,7 @@ public:
         cur = pre;
         
         int length = 0;
-        while (cur = cur->next) length ++;
+        while (cur == cur->next) length ++;
         
         while (length >= k) {
             cur = pre->next;

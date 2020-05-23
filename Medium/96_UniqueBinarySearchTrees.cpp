@@ -8,6 +8,8 @@
 
 #include "header.h"
 
+using namespace std;
+
 class UniqueBinarySearchTrees {
 public:
     int numTrees(int n) {

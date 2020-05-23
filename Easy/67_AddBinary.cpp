@@ -8,12 +8,14 @@
 
 #include "header.h"
 
+using namespace std;
+
 class AddBinary {
 public:
-    std::string addBinary(std::string a, std::string b) {
+    string addBinary(string a, string b) {
         if (a.size() < b.size()) return addBinary(b, a);
         
-        int carry = 0, i = a.size() - 1, j = b.size() - 1;
+        int carry = 0, i = static_cast<int>(a.size()) - 1, j = static_cast<int>(b.size()) - 1;
         
         while (i >= 0 || j >= 0) {
             carry += i >= 0 ? a[i] - '0' : 0;
@@ -27,7 +29,7 @@ public:
     }
     
     void main() {
-        std::string a = "1010", b = "11";
-        std::cout << addBinary(a, b) << std::endl;
+        string a = "1010", b = "11";
+        cout << addBinary(a, b) << endl;
     }
 };

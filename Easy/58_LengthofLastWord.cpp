@@ -8,10 +8,12 @@
 
 #include "header.h"
 
+using namespace std;
+
 class LengthofLastWord {
 public:
     int lengthOfLastWord(std::string s) {
-        int last = s.find_last_not_of(' ');
+        int last = static_cast<int>(s.find_last_not_of(' '));
         int count = 0;
         for (int i = last; i >= 0; i --) {
             if (s[i] == ' ') break;

@@ -8,11 +8,13 @@
 
 #include "header.h"
 
+using namespace std;
+
 class Searcha2DMatrix {
 public:
     bool searchMatrix(std::vector<std::vector<int>>& matrix, int target) {
         if (matrix.size() == 0 || matrix[0].size() == 0) return false;
-        int low = 0, high = matrix.size() - 1;
+        int low = 0, high = static_cast<int>(matrix.size()) - 1;
         
         while (low <= high) {
             int mid = (low + high) / 2;
@@ -25,7 +27,7 @@ public:
         
         int mark = low - 1;
         low = 0;
-        high = matrix[mark].size() - 1;
+        high = static_cast<int>(matrix[mark].size()) - 1;
         
         while (low <= high) {
             int mid = (low + high) / 2;

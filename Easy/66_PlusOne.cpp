@@ -8,12 +8,14 @@
 
 #include "header.h"
 
+using namespace std;
+
 class PlusOne {
 public:
     std::vector<int> plusOne(std::vector<int>& digits) {
         bool carry = true;
         
-        for (int i = digits.size() - 1; i >= 0; i --) {
+        for (int i = static_cast<int>(digits.size()) - 1; i >= 0; i --) {
             if (digits[i] == 9 && carry == true) {
                 digits[i] = (digits[i] + carry) % 10;
                 carry = true;

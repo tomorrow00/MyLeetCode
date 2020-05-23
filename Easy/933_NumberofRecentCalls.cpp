@@ -8,6 +8,8 @@
 
 #include "header.h"
 
+using namespace std;
+
 class RecentCounter {
 public:
     std::vector<int> q;
@@ -19,7 +21,7 @@ public:
         q.push_back(t);
         std::vector<int>::iterator lower;
         lower = lower_bound(q.begin(), q.end(), t - 3000);
-        return q.size() - (lower - q.begin());
+        return static_cast<int>(q.size()- (lower - q.begin()));
     }
 };
 

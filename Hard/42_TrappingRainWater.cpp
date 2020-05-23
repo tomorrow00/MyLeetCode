@@ -8,10 +8,12 @@
 
 #include "header.h"
 
+using namespace std;
+
 class TrappingRainWater {
 public:
     int trap(std::vector<int>& height) {
-        int left = 0, right = height.size() - 1, res = 0, level = 0;
+        int left = 0, right = static_cast<int>(height.size()) - 1, res = 0, level = 0;
         
         while (left <= right) {
             int low = height[height[left] < height[right] ? left ++ : right --];

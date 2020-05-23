@@ -39,10 +39,8 @@ public:
     
     void main() {
         std::vector<ListNode *> lists;
-        int n = 3;
         int a[] = {1, 4, 5};
         int b[] = {1, 3, 4};
-        int c[] = {2, 6};
         
         Initialization init;
         ListNode *pH1, *pH2, *pH3;

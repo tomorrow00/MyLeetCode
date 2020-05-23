@@ -8,10 +8,12 @@
 
 #include "header.h"
 
+using namespace std;
+
 class MinimumPathSum {
 public:
     int minPathSum(std::vector<std::vector<int>>& grid) {
-        int m = grid.size(), n = grid[0].size();
+        int m = static_cast<int>(grid.size()), n = static_cast<int>(grid[0].size());
         std::vector<std::vector<int>> score(m, std::vector<int>(n, 0));
         score[0][0] = grid[0][0];
         for (int i = 1; i < m; i ++) {

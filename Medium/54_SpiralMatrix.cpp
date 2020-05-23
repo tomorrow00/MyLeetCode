@@ -12,9 +12,9 @@ class SpiralMatrix {
 public:
     std::vector<int> spiralOrder(std::vector<std::vector<int>>& matrix) {
         std::vector <int> res;
-        int rowSize = matrix.size();
+        int rowSize = static_cast<int>(matrix.size());
         if (rowSize==0) return res;
-        int colSize = matrix[0].size();
+        int colSize = static_cast<int>(matrix[0].size());
         int lb = 0, rb = colSize - 1, ub = 0, db = rowSize - 1;// left bound, right bound, up bound, down bound;
         int direction = 0;
         int col = 0, row = 0;

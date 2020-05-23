@@ -8,6 +8,8 @@
 
 #include "header.h"
 
+using namespace std;
+
 class WildcardMatching {
 public:
     bool isMatch(std::string s, std::string p) {
@@ -31,7 +33,7 @@ public:
 //        return res[m][n];
         
         // greedy
-        int m = s.length(), n = p.length();
+        int m = static_cast<int>(s.length()), n = static_cast<int>(p.length());
         int si = 0, pi = 0;
         int sip = -1, pip = -1;
         while (si < m) {

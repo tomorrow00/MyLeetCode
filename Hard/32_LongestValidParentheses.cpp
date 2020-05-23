@@ -11,7 +11,7 @@
 class LongestValidParentheses {
 public:
     int longestValidParentheses(std::string s) {
-        int count = 0, max_count = 0;
+        int max_count = 0;
         std::stack<int> stk;
         stk.push(-1);
         

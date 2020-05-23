@@ -15,7 +15,7 @@
 class Initialization {
 public:
     void initList(ListNode *&pHead, int a[], int length) {
-        ListNode *p, *s;
+        ListNode *p = nullptr, *s;
         
         for (int i = 0; i < length; i ++) {
             s = new ListNode(a[i]);
@@ -47,7 +47,7 @@ public:
     }
     
     void InitRandomList(RandomListNode *&pHead, int a[], int length) {
-        RandomListNode *p, *s;
+        RandomListNode *p = nullptr, *s;
         for (int i = 0; i < length; i ++) {
             s = new RandomListNode(a[i]);
             if (i == 0) {

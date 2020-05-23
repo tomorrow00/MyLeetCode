@@ -14,7 +14,7 @@ public:
         std::vector<int> res;
         std::map<std::string, int> stable;
         std::map<std::string, int> move;
-        int n = words[0].size();
+        int n = static_cast<int>(words[0].size());
         
         for (std::string word : words) {
             stable[word] ++;

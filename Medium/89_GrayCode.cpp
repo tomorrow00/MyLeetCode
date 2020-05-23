@@ -12,7 +12,6 @@ class GrayCode {
 public:
     std::vector<int> grayCode(int n) {
         std::vector<int> res;
-        int len = 1 << n;
         
         for (int i = 0; i < std::pow(2, n); i ++) {
             res.push_back(i ^ (i >> 1));

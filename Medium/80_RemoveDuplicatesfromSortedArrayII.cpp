@@ -8,10 +8,12 @@
 
 #include "header.h"
 
+using namespace std;
+
 class RemoveDuplicatesfromSortedArrayII {
 public:
     int removeDuplicates(std::vector<int>& nums) {
-        if (nums.empty()) return nums.size();
+        if (nums.empty()) return static_cast<int>(nums.size());
         int length = 0, duplicated = 0;
         
         for (int i = 0; i < nums.size(); i ++) {

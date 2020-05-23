@@ -8,11 +8,13 @@
 
 #include "header.h"
 
+using namespace std;
+
 class UniquePathsII {
 public:
     int uniquePathsWithObstacles(std::vector<std::vector<int>>& obstacleGrid) {
-        int m = obstacleGrid.size(), n = obstacleGrid[0].size();
-        std::vector<long long> step(n, 0);
+        int m = static_cast<int>(obstacleGrid.size()), n = static_cast<int>(obstacleGrid[0].size());
+        std::vector<int> step(n, 0);
         for (int i = 0; i < n; i ++) {
             if (obstacleGrid[0][i] == 0) step[i] = 1;
             else break;

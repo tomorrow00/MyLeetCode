@@ -8,10 +8,12 @@
 
 #include "header.h"
 
+using namespace std;
+
 class SearchInsertPosition {
 public:
     int searchInsert(std::vector<int>& nums, int target) {
-        int left = 0, right = nums.size() - 1;
+        int left = 0, right = static_cast<int>(nums.size()) - 1;
         
         while (left <= right) {
             int mid = (left + right) / 2;

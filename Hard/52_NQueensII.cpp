@@ -8,6 +8,8 @@
 
 #include "header.h"
 
+using namespace std;
+
 class NQueensII {
 private:
     void solveNQueens(int row, const int& n, vector<vector<string>>& res, vector<string>& ans, vector<int>& flag_col, vector<int>& flag_45, vector<int>& flag_135) {
@@ -33,7 +35,7 @@ public:
         vector<int> flag_col(n, 1), flag_45(2 * n - 1, 1), flag_135(2 * n - 1, 1);
         solveNQueens(0, n, res, ans, flag_col, flag_45, flag_135);
 
-        return res.size();
+        return static_cast<int>(res.size());
     }
 
     void main() {

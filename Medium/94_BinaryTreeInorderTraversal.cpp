@@ -19,9 +19,19 @@
  * };
  */
 class BinaryTreeInorderTraversal {
+private:
+    void inorder(TreeNode* root, std::vector<int>& res) {
+        if (root == nullptr) return;
+
+        inorder(root->left, res);
+        res.push_back(root->val);
+        inorder(root->right, res);
+    }
+    
 public:
     std::vector<int> inorderTraversal(TreeNode* root) {
         std::vector<int> res;
+        inorder(root, res);
         
         return res;
     }
@@ -30,8 +40,8 @@ public:
        TreeNode* root;
        char a[] = {'1', '#', '2', '3'};
        Initialization init;
-//        init.InitTree(root, a, 0, sizeof(a) / sizeof(char));
+        init.InitTree(root, a, 0, sizeof(a) / sizeof(char));
 
-       std::cout << root->left << std::endl;
+       std::cout << root->val << std::endl;
     }
 };

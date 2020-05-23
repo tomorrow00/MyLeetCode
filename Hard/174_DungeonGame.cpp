@@ -12,8 +12,8 @@ class DungeonGame {
 public:
     int calculateMinimumHP(std::vector<std::vector<int>>& dungeon) {
         if (dungeon.empty()) return 1;
-        const int m = dungeon.size();
-        const int n = dungeon[0].size();
+        const uint8_t m = dungeon.size();
+        const uint8_t n = dungeon[0].size();
         std::vector<int> hp(n + 1, INT16_MAX);
         hp[n - 1] = 1;
         

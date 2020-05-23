@@ -22,7 +22,7 @@ public:
             if (nums[i] != i + 1) return i + 1;
         }
         
-        return nums.size() + 1;
+        return static_cast<int>(nums.size()) + 1;
         
         // ilegal sort()
 //        if (nums.empty()) return 1;

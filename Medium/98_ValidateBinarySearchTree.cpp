@@ -9,6 +9,8 @@
 #include "header.h"
 #include "init.h"
 
+using namespace std;
+
 /**
  * Definition for a binary tree node.
  * struct TreeNode {

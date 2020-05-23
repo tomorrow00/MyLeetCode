@@ -8,10 +8,12 @@
 
 #include "header.h"
 
+using namespace std;
+
 class SetMatrixZeroes {
 public:
     void setZeroes(std::vector<std::vector<int>>& matrix) {
-        int m = matrix.size(), n = matrix[0].size();
+        int m = static_cast<int>(matrix.size()), n = static_cast<int>(matrix[0].size());
         bool row = false, col = false;
         
         for (int i = 0; i < m; i ++) {

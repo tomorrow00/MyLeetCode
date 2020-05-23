@@ -23,6 +23,7 @@
 #include "../Easy/70_ClimbingStairs.cpp"
 #include "../Easy/83_RemoveDuplicatesfromSortedList.cpp"
 #include "../Easy/88_MergeSortedArray.cpp"
+#include "../Easy/100_SameTree.cpp"
 #include "../Easy/387_FirstUniqueCharacterinaString.cpp"
 #include "../Easy/504_Base7.cpp"
 #include "../Easy/933_NumberofRecentCalls.cpp"
