@@ -7,6 +7,7 @@
 //
 
 #include "header.h"
+#include "init.h"
 
 using namespace std;
 
@@ -22,10 +23,18 @@ using namespace std;
 class SameTree {
 public:
     bool isSameTree(TreeNode* p, TreeNode* q) {
-        return true;
+        if (!p || !q) return (p == q);
+        else return (p->val == q->val && isSameTree(p->left, q->left) && isSameTree(p->right, q->right));
     }
     
     void main() {
-        cerr << 100 << endl;
+        TreeNode *p, *q;
+        char a[] = {'1', '#', '2', '3'};
+        char b[] = {'1', '#', '2', '3'};
+        Initialization init;
+        init.InitTree(p, a, 0, sizeof(a) / sizeof(char));
+        init.InitTree(q, b, 0, sizeof(b) / sizeof(char));
+        
+        cerr << isSameTree(p, q) << endl;
     }
 };

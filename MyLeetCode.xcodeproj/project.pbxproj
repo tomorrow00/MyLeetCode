@@ -92,6 +92,7 @@
 		60F2AF482478FF3B00C04156 /* 42_TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF382478FF3B00C04156 /* 42_TrappingRainWater.cpp */; };
 		60F2AF492478FF3B00C04156 /* 149_MaxPoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF392478FF3B00C04156 /* 149_MaxPoints.cpp */; };
 		60F2AF4B247901B200C04156 /* 100_SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF4A247901B200C04156 /* 100_SameTree.cpp */; };
+		60F2AF4D24790F0B00C04156 /* 57_InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF4C24790F0B00C04156 /* 57_InsertInterval.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -202,6 +203,7 @@
 		60F2AF382478FF3B00C04156 /* 42_TrappingRainWater.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 42_TrappingRainWater.cpp; sourceTree = "<group>"; };
 		60F2AF392478FF3B00C04156 /* 149_MaxPoints.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 149_MaxPoints.cpp; sourceTree = "<group>"; };
 		60F2AF4A247901B200C04156 /* 100_SameTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 100_SameTree.cpp; sourceTree = "<group>"; };
+		60F2AF4C24790F0B00C04156 /* 57_InsertInterval.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 57_InsertInterval.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -344,6 +346,7 @@
 				60F2AF2E2478FF3A00C04156 /* 45_JumpGameII.cpp */,
 				60F2AF2C2478FF3A00C04156 /* 51_NQueens.cpp */,
 				60F2AF2F2478FF3A00C04156 /* 52_NQueensII.cpp */,
+				60F2AF4C24790F0B00C04156 /* 57_InsertInterval.cpp */,
 				60F2AF2B2478FF3A00C04156 /* 65_ValidNumber.cpp */,
 				60F2AF392478FF3B00C04156 /* 149_MaxPoints.cpp */,
 				60F2AF342478FF3B00C04156 /* 174_DungeonGame.cpp */,
@@ -464,6 +467,7 @@
 				60F2AF172478FF2800C04156 /* 82_RemoveDuplicatesfromSortedListII.cpp in Sources */,
 				60F2AEBF2478FF0600C04156 /* 35_SearchInsertPosition.cpp in Sources */,
 				60F2AF112478FF2800C04156 /* 29_DivideTwoIntegers.cpp in Sources */,
+				60F2AF4D24790F0B00C04156 /* 57_InsertInterval.cpp in Sources */,
 				60F2AF1C2478FF2800C04156 /* 692_TopKFrequentWords.cpp in Sources */,
 				60F2AF022478FF2800C04156 /* 80_RemoveDuplicatesfromSortedArrayII.cpp in Sources */,
 				60F2AF4B247901B200C04156 /* 100_SameTree.cpp in Sources */,

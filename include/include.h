@@ -89,6 +89,7 @@
 #include "../Hard/45_JumpGameII.cpp"
 #include "../Hard/51_NQueens.cpp"
 #include "../Hard/52_NQueensII.cpp"
+#include "../Hard/57_InsertInterval.cpp"
 #include "../Hard/65_ValidNumber.cpp"
 #include "../Hard/149_MaxPoints.cpp"
 #include "../Hard/174_DungeonGame.cpp"
