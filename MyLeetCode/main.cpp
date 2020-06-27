@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
     // 难题必做
 //    SudokuSolver solution;
 
-    InsertInterval solution;
+    TextJustification solution;
     solution.main();
 
     return 0;

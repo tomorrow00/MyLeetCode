@@ -21,19 +21,30 @@ using namespace std;
  */
 class InsertInterval {
 public:
-    vector<Interval> insert(vector<Interval>& intervals, Interval newInterval) {
-        vector<Interval> res;
+    vector<vector<int>> insert(vector<vector<int>>& intervals, vector<int>& newInterval) {
+        auto pair = equal_range(intervals.begin(), intervals.end(), newInterval, [](const vector<int>& a, const vector<int>& b){return a[1] < b[0];});
+        auto lower = pair.first;
+        auto upper = pair.second;
         
-        return res;
+        if (lower == upper) {
+            intervals.insert(lower, newInterval);
+        }
+        else {
+            upper --;
+            upper->at(0) = min(newInterval[0], lower->at(0));
+            upper->at(1) = max(newInterval[1], upper->at(1));
+            intervals.erase(lower, upper);
+        }
+        
+        return intervals;
     }
     
     void main() {
-        Interval a[] = {{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}};
-        vector<Interval> intervals(a, a + sizeof(a) / sizeof(Interval));
-        Interval newInterval(4, 8);
+        vector<vector<int>> intervals = {{1, 2}, {3, 5}, {6, 7}, {8, 10}, {12, 16}};
+        vector<int> newInterval = {4, 8};
         auto res = insert(intervals, newInterval);
         for (int i = 0; i < res.size(); i ++) {
-            cerr << res[i].start << ' ' << res[i].end << endl;
+            cerr << res[i][0] << ' ' << res[i][1] << endl;
         }
     }
 };

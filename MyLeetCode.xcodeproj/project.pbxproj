@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		604C7AA424100B2200321F86 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 604C7AA324100B2200321F86 /* main.cpp */; };
+		60C1062324A5BA4B00CE50E4 /* 57_InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF4C24790F0B00C04156 /* 57_InsertInterval.cpp */; };
+		60C1062524A736AC00CE50E4 /* 68_TextJustification.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60C1062424A736AC00CE50E4 /* 68_TextJustification.cpp */; };
 		60F2AEB52478FF0600C04156 /* 38_CountandSay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AEA42478FF0500C04156 /* 38_CountandSay.cpp */; };
 		60F2AEB62478FF0600C04156 /* 83_RemoveDuplicatesfromSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AEA52478FF0500C04156 /* 83_RemoveDuplicatesfromSortedList.cpp */; };
 		60F2AEB72478FF0600C04156 /* 88_MergeSortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AEA62478FF0500C04156 /* 88_MergeSortedArray.cpp */; };
@@ -92,7 +94,6 @@
 		60F2AF482478FF3B00C04156 /* 42_TrappingRainWater.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF382478FF3B00C04156 /* 42_TrappingRainWater.cpp */; };
 		60F2AF492478FF3B00C04156 /* 149_MaxPoints.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF392478FF3B00C04156 /* 149_MaxPoints.cpp */; };
 		60F2AF4B247901B200C04156 /* 100_SameTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF4A247901B200C04156 /* 100_SameTree.cpp */; };
-		60F2AF4D24790F0B00C04156 /* 57_InsertInterval.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 60F2AF4C24790F0B00C04156 /* 57_InsertInterval.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -119,6 +120,7 @@
 		604C7B3524100CE200321F86 /* init.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = init.h; sourceTree = "<group>"; };
 		604C7B3624100CE300321F86 /* header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = header.h; sourceTree = "<group>"; };
 		604C7B4324100CEB00321F86 /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = "<group>"; };
+		60C1062424A736AC00CE50E4 /* 68_TextJustification.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = 68_TextJustification.cpp; sourceTree = "<group>"; };
 		60F2AEA42478FF0500C04156 /* 38_CountandSay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 38_CountandSay.cpp; sourceTree = "<group>"; };
 		60F2AEA52478FF0500C04156 /* 83_RemoveDuplicatesfromSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 83_RemoveDuplicatesfromSortedList.cpp; sourceTree = "<group>"; };
 		60F2AEA62478FF0500C04156 /* 88_MergeSortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = 88_MergeSortedArray.cpp; sourceTree = "<group>"; };
@@ -348,6 +350,7 @@
 				60F2AF2F2478FF3A00C04156 /* 52_NQueensII.cpp */,
 				60F2AF4C24790F0B00C04156 /* 57_InsertInterval.cpp */,
 				60F2AF2B2478FF3A00C04156 /* 65_ValidNumber.cpp */,
+				60C1062424A736AC00CE50E4 /* 68_TextJustification.cpp */,
 				60F2AF392478FF3B00C04156 /* 149_MaxPoints.cpp */,
 				60F2AF342478FF3B00C04156 /* 174_DungeonGame.cpp */,
 				60F2AF362478FF3B00C04156 /* 719_FindKthSmallestPairDistance.cpp */,
@@ -458,6 +461,7 @@
 				60F2AF162478FF2800C04156 /* 50_Powxn.cpp in Sources */,
 				60F2AF1B2478FF2800C04156 /* 95_UniqueBinarySearchTreesII.cpp in Sources */,
 				604C7AA424100B2200321F86 /* main.cpp in Sources */,
+				60C1062524A736AC00CE50E4 /* 68_TextJustification.cpp in Sources */,
 				60F2AF3A2478FF3B00C04156 /* 23_MergekSortedLists.cpp in Sources */,
 				60F2AF422478FF3B00C04156 /* 41_FirstMissingPositive.cpp in Sources */,
 				60F2AF0D2478FF2800C04156 /* 33_SearchinRotatedSortedArray.cpp in Sources */,
@@ -467,7 +471,7 @@
 				60F2AF172478FF2800C04156 /* 82_RemoveDuplicatesfromSortedListII.cpp in Sources */,
 				60F2AEBF2478FF0600C04156 /* 35_SearchInsertPosition.cpp in Sources */,
 				60F2AF112478FF2800C04156 /* 29_DivideTwoIntegers.cpp in Sources */,
-				60F2AF4D24790F0B00C04156 /* 57_InsertInterval.cpp in Sources */,
+				60C1062324A5BA4B00CE50E4 /* 57_InsertInterval.cpp in Sources */,
 				60F2AF1C2478FF2800C04156 /* 692_TopKFrequentWords.cpp in Sources */,
 				60F2AF022478FF2800C04156 /* 80_RemoveDuplicatesfromSortedArrayII.cpp in Sources */,
 				60F2AF4B247901B200C04156 /* 100_SameTree.cpp in Sources */,
