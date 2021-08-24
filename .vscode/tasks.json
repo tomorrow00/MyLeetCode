@@ -29,7 +29,7 @@
             "label": "main",
             "type": "shell",
             "linux": {
-                "command": "${workspaceFolder}/build/bin/main"
+                "command": "make -j$(nproc) && ${workspaceFolder}/build/bin/main"
             },
             "options": {
                 "cwd": "${workspaceFolder}/build"

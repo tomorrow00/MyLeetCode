@@ -37,9 +37,9 @@ public:
     }
     
     void main() {
-       TreeNode* root;
-       char a[] = {'1', '#', '2', '3'};
-       Initialization init;
+        TreeNode* root;
+        char a[] = {'1', '#', '2', '3'};
+        Initialization init;
         init.InitTree(root, a, 0, sizeof(a) / sizeof(char));
 
        std::cout << root->val << std::endl;

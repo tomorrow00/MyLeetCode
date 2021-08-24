@@ -26,6 +26,7 @@
 #include "../Easy/100_SameTree.cpp"
 #include "../Easy/387_FirstUniqueCharacterinaString.cpp"
 #include "../Easy/504_Base7.cpp"
+#include "../Easy/653_TwoSumIV.cpp"
 #include "../Easy/933_NumberofRecentCalls.cpp"
 
 #include "../Medium/22_GenerateParentheses.cpp"
