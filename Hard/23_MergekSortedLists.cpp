@@ -44,9 +44,9 @@ public:
         
         Initialization init;
         ListNode *pH1, *pH2, *pH3;
-        init.initList(pH1, a, sizeof(a) / sizeof(int));
-        init.initList(pH2, b, sizeof(b) / sizeof(int));
-        init.initList(pH3, b, sizeof(b) / sizeof(int));
+        init.InitList(pH1, a, sizeof(a) / sizeof(int));
+        init.InitList(pH2, b, sizeof(b) / sizeof(int));
+        init.InitList(pH3, b, sizeof(b) / sizeof(int));
         lists.push_back(pH1);
         lists.push_back(pH2);
         lists.push_back(pH3);
