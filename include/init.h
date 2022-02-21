@@ -14,7 +14,7 @@
 
 class Initialization {
 public:
-    void initList(ListNode *&pHead, int a[], int length) {
+    void InitList(ListNode *&pHead, int a[], int length) {
         ListNode *p = nullptr, *s;
         
         for (int i = 0; i < length; i ++) {
@@ -26,6 +26,30 @@ public:
             p->next = s;
             p = p->next;
         }
+    }
+
+    void InitCycleList(ListNode *&pHead, int a[], int length, int pos) {
+        ListNode *p = nullptr, *s;
+        ListNode *pos_p = nullptr, *tail;
+        
+        for (int i = 0; i < length; i ++) {
+            s = new ListNode(a[i]);
+            if (i == 0) {
+                pHead = s;
+                p = pHead;
+            }
+            p->next = s;
+            p = p->next;
+
+            if (i == pos) {
+                pos_p = s;
+            }
+            if (i == length - 1) {
+                tail = s;
+            }
+        }
+
+        tail->next = pos_p;
     }
     
     void InitTree(TreeNode *&pRoot, char* a, int index, int len) {
