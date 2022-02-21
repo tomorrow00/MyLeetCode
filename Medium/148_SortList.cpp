@@ -59,7 +59,7 @@ public:
         int a[] = {-1, 5, 3, 4, 0};
         Initialization init;
         ListNode *pH;
-        init.initList(pH, a, sizeof(a) / sizeof(int));
+        init.InitList(pH, a, sizeof(a) / sizeof(int));
         
         ListNode* res = sortList(pH);
         while (res) {

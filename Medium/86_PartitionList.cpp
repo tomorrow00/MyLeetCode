@@ -50,7 +50,7 @@ public:
         int x = 3;
         
         Initialization init;
-        init.initList(head, a, n);
+        init.InitList(head, a, n);
         
         head = partition(head, x);
         while (head->next) {

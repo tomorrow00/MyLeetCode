@@ -47,7 +47,7 @@ public:
         ListNode* head;
         int a[] = {0, 1, 2};
         Initialization init;
-        init.initList(head, a, 3);
+        init.InitList(head, a, 3);
         
         int k = 3;
         ListNode* res = rotateRight(head, k);

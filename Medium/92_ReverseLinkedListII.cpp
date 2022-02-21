@@ -50,7 +50,7 @@ public:
         int length = 5;
         int a[] = {1, 2, 3, 4, 5};
         Initialization init;
-        init.initList(head, a, length);
+        init.InitList(head, a, length);
         int m = 1, n = 5;
         
         head = reverseBetween(head, m, n);

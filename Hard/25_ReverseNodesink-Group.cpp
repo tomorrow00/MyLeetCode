@@ -45,7 +45,7 @@ public:
         
         Initialization init;
         ListNode *head;
-        init.initList(head, a, sizeof(a) / sizeof(int));
+        init.InitList(head, a, sizeof(a) / sizeof(int));
         
         ListNode *res = reverseKGroup(head, k);
         while (res) {
