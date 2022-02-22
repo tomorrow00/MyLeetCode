@@ -25,6 +25,7 @@
 #include "../Easy/88_MergeSortedArray.cpp"
 #include "../Easy/100_SameTree.cpp"
 #include "../Easy/169_MajorityElement.cpp"
+#include "../Easy/171_ExcelSheetColumnNumber.cpp"
 #include "../Easy/387_FirstUniqueCharacterinaString.cpp"
 #include "../Easy/504_Base7.cpp"
 #include "../Easy/653_TwoSumIV.cpp"
