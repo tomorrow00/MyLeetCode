@@ -31,6 +31,7 @@
 #include "../Easy/653_TwoSumIV.cpp"
 #include "../Easy/933_NumberofRecentCalls.cpp"
 
+#include "../Medium/3_LongestSubstringWithoutRepeatingCharacters.cpp"
 #include "../Medium/22_GenerateParentheses.cpp"
 #include "../Medium/24_SwapNodesinPairs.cpp"
 #include "../Medium/29_DivideTwoIntegers.cpp"
@@ -81,6 +82,7 @@
 #include "../Medium/142_LinkedListCycleII.cpp"
 #include "../Medium/148_SortList.cpp"
 #include "../Medium/151_ReverseWordsinaString.cpp"
+#include "../Medium/165_CompareVersionNumbers.cpp"
 #include "../Medium/260_SingleNumberIII.cpp"
 #include "../Medium/347_TopKFrequentElements.cpp"
 #include "../Medium/451_SortCharactersByFrequency.cpp"
