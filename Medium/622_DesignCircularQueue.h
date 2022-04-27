@@ -1,5 +1,5 @@
 //
-//  622_DesignCircularQueue.cpp
+//  622_DesignCircularQueue.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/8/19.

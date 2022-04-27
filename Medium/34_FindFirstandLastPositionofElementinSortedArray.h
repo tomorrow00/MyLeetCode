@@ -1,5 +1,5 @@
 //
-//  34_FindFirstandLastPositionofElementinSortedArray.cpp
+//  34_FindFirstandLastPositionofElementinSortedArray.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/15.

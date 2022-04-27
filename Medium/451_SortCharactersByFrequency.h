@@ -1,5 +1,5 @@
 //
-//  451_SortCharactersByFrequency.cpp
+//  451_SortCharactersByFrequency.h
 //  LeetCode
 //
 //  Created by 王尚 on 2021/10/22.

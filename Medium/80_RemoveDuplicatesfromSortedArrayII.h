@@ -1,5 +1,5 @@
 //
-//  80_RemoveDuplicatesfromSortedArrayII.cpp
+//  80_RemoveDuplicatesfromSortedArrayII.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/3/4.

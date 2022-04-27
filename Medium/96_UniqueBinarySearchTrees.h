@@ -1,5 +1,5 @@
 //
-//  96_UniqueBinarySearchTrees.cpp
+//  96_UniqueBinarySearchTrees.h
 //  LeetCode
 //
 //  Created by Tomorrow on 2020/5/22.

@@ -1,5 +1,5 @@
 //
-//  43_MultiplyStrings.cpp
+//  43_MultiplyStrings.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/18.

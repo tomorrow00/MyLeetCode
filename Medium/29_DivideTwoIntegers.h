@@ -1,5 +1,5 @@
 //
-//  29. Divide Two Integers 29. Divide Two Integers 29.cpp
+//  29. Divide Two Integers 29. Divide Two Integers 29.h
 //  LeetCode
 //
 //  Created by 王尚 on 2018/11/26.

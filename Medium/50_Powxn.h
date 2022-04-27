@@ -1,5 +1,5 @@
 //
-//  50_Powxn.cpp
+//  50_Powxn.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/20.

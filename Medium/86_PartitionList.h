@@ -1,5 +1,5 @@
 //
-//  86_PartitionList.cpp
+//  86_PartitionList.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/3/6.

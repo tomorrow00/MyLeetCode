@@ -1,5 +1,5 @@
 //
-//  46_Permutations.cpp
+//  46_Permutations.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/18.

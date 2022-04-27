@@ -1,5 +1,5 @@
 //
-//  129_SumRoottoLeafNumbers.cpp
+//  129_SumRoottoLeafNumbers.h
 //  LeetCode
 //
 //  Created by Tomorrow on 2021/11/3.

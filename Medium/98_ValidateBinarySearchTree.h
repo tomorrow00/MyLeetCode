@@ -1,5 +1,5 @@
 //
-//  98_ValidateBinarySearchTree.cpp
+//  98_ValidateBinarySearchTree.h
 //  LeetCode
 //
 //  Created by Tomorrow on 2020/5/22.

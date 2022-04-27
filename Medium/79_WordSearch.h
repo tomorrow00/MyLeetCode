@@ -1,5 +1,5 @@
 //
-//  79_WordSearch.cpp
+//  79_WordSearch.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/3/4.

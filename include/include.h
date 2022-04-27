@@ -90,6 +90,7 @@
 #include "../Medium/621_TaskScheduler.h"
 #include "../Medium/622_DesignCircularQueue.h"
 #include "../Medium/875_KokoEatingBananas.h"
+#include "../Medium/1202_SmallestStringWithSwaps.h"
 
 #include "../Hard/23_MergekSortedLists.h"
 #include "../Hard/25_ReverseNodesink-Group.h"

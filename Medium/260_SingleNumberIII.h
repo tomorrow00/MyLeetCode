@@ -1,5 +1,5 @@
 //
-//  260_SingleNumberIII.cpp
+//  260_SingleNumberIII.h
 //  LeetCode
 //
 //  Created by 王尚 on 2021/11/6.

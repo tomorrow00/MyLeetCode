@@ -1,5 +1,5 @@
 //
-//  875_KokoEatingBananas.cpp
+//  875_KokoEatingBananas.h
 //  LeetCode
 //
 //  Created by 王尚 on 2022/1/19.

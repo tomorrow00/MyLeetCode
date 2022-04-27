@@ -1,5 +1,5 @@
 //
-//  49_GroupAnagrams.cpp
+//  49_GroupAnagrams.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/20.

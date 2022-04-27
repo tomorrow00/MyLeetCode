@@ -1,5 +1,5 @@
 //
-//  LongestSubstringWithoutRepeatingCharacters.cpp
+//  LongestSubstringWithoutRepeatingCharacters.h
 //  LeetCode
 //
 //  Created by 王尚 on 2022/04/14.

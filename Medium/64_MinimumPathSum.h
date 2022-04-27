@@ -1,5 +1,5 @@
 //
-//  64_MinimumPathSum.cpp
+//  64_MinimumPathSum.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/26.

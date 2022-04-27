@@ -1,5 +1,5 @@
 //
-//  93_RestoreIPAddresses.cpp
+//  93_RestoreIPAddresses.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/3/9.

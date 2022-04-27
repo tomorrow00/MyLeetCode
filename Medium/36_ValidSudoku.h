@@ -1,5 +1,5 @@
 //
-//  36_ValidSudoku.cpp
+//  36_ValidSudoku.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/16.

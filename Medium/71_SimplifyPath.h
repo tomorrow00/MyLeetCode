@@ -1,5 +1,5 @@
 //
-//  71_SimplifyPath.cpp
+//  71_SimplifyPath.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/26.

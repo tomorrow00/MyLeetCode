@@ -1,5 +1,5 @@
 //
-//  73_SetMatrixZeroes.cpp
+//  73_SetMatrixZeroes.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/27.

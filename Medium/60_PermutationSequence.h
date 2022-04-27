@@ -1,5 +1,5 @@
 //
-//  60_PermutationSequence.cpp
+//  60_PermutationSequence.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/24.

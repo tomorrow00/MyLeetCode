@@ -1,5 +1,5 @@
 //
-//  48_RotateImage.cpp
+//  48_RotateImage.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/20.

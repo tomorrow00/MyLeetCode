@@ -1,5 +1,5 @@
 //
-//  33_SearchinRotatedSortedArray.cpp
+//  33_SearchinRotatedSortedArray.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/15.

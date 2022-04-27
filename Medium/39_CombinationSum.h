@@ -1,5 +1,5 @@
 //
-//  39_CombinationSum.cpp
+//  39_CombinationSum.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/17.

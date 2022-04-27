@@ -1,5 +1,5 @@
 //
-//  92_ReverseLinkedListII.cpp
+//  92_ReverseLinkedListII.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/3/8.

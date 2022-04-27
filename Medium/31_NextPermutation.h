@@ -1,5 +1,5 @@
 //
-//  31_NextPermutation.cpp
+//  31_NextPermutation.h
 //  LeetCode
 //
 //  Created by 王尚 on 2018/11/28.

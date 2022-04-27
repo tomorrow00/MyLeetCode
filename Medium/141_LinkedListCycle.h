@@ -1,5 +1,5 @@
 //
-//  141_LinkedListCycle.cpp
+//  141_LinkedListCycle.h
 //  LeetCode
 //
 //  Created by 王尚 on 2022/1/19.

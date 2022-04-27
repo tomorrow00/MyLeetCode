@@ -1,5 +1,5 @@
 //
-//  94_BinaryTreeInorderTraversal.cpp
+//  94_BinaryTreeInorderTraversal.h
 //  LeetCode
 //
 //  Created by Tomorrow on 2020/2/7.

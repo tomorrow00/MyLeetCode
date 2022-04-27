@@ -1,5 +1,5 @@
 //
-//  62_UniquePaths.cpp
+//  62_UniquePaths.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/26.

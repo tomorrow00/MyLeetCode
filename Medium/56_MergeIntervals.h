@@ -1,5 +1,5 @@
 //
-//  56_MergeIntervals.cpp
+//  56_MergeIntervals.h
 //  LeetCode
 //
 //  Created by 王尚 on 2019/2/21.
